@@ -1,0 +1,76 @@
+body{
+    background-color: #dde2ed;
+    color: #222;
+    font-family: Verdana,sans-serif;
+}
+#container2{
+    width: 360px;
+    margin: 100px auto;
+    background-color: #e7e7e7;
+    box-shadow: 0 0 3px rgba(0,0,0,0.15);
+
+}
+input[type='text']{
+    height: 46px;
+    width: 100%;
+    color: #333;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 10px 10px 20px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px rgba(0,0,0,0.1) solid;
+    background-color: whitesmoke;
+
+}
+input[type='text']:focus{
+    border: 2px solid #778dd0;
+    outline: none;
+}
+h1{
+    background-color: #778dd0;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 10px 20px;
+    letter-spacing: 1.4px;
+}
+span#plus{
+    float: right;
+    cursor: pointer;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+}
+ul li{
+    background-color: snow;
+    line-height: 36px;
+    text-transform: capitalize;
+    letter-spacing: 1.1px;
+
+}
+ul li:nth-child(2n){
+    background-color: #e7e7e7;
+}
+li span{
+    background-color: rgba(0,0,0,0);
+    height: 100%;
+    text-align: center;
+    display: inline-block;
+    color: rgba(0,0,0,0);
+    padding-left: 5px;
+    transition: 0.2s linear;
+
+} li span:hover{
+      background-color: #e61d1d;
+      color: black;
+      padding: 0 15px;
+
+
+  }
+.td-text{
+    text-decoration: line-through;
+    color: #666;
+}
